@@ -62,5 +62,5 @@ jobs:
         run: az aks get-credentials --resource-group vps --name nodeaks --overwrite-existing
 
       - name: Update Kubernetes deployment
-        run: kubectl rollout restart deployment/travelinv-node-backend
+        run: kubectl rollout restart deployment travelinv-node-backend --name nodeaks
           
