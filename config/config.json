@@ -2,8 +2,8 @@
   "development": {
     "username": "azure_admin",
     "password": "Baitaplonso7",
-    "database": "travelinv",
-    "host": "travelinv-mysql.mysql.database.azure.com",
+    "database": "travelinv-mysql",
+    "host": "travelinv.mysql.database.azure.com",
     "dialect": "mysql",
     "logging": false,
     "timezone": "+07:00"
@@ -18,8 +18,8 @@
   "production": {
     "username": "azure_admin",
     "password": "Baitaplonso7",
-    "database": "travelinv",
-    "host": "travelinv-mysql.mysql.database.azure.com",
+    "database": "travelinv-mysql",
+    "host": "travelinv.mysql.database.azure.com",
     "dialect": "mysql"
   }
 }

@@ -23,10 +23,10 @@ RUN npm rebuild bcrypt --build-from-source
 EXPOSE 8800
 
 # Environment variables for MySQL connection
-ENV DB_HOST=travelinv-mysql.mysql.database.azure.com
+ENV DB_HOST=travelinv.mysql.database.azure.com
 ENV DB_USER=azure_admin
 ENV DB_PASSWORD=Baitaplonso7
-ENV DB_NAME=travelinv
+ENV DB_NAME=travelinv-mysql
 ENV DB_PORT=3306
 
 # Start the application
